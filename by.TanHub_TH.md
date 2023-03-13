@@ -154,10 +154,10 @@ btns:Button(
 
 win:Server("Main", "http://www.roblox.com/asset/?id=6031075938")
 
-local tgls = serv:Channel("Toggles")
+local tgls = serv:Channel("Auto Farm All")
 
 tgls:Toggle(
-    "Auto-Farm",false,function(bool)
+    "Auto-FarmDefense",false,function(bool)
         while bool do
     wait(4)
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3308.13037, 1888.37122, -5220.68115, -0.852645338, 0.118890397, -0.508783877, -0.094260633, 0.922788322, 0.373599708, 0.513917267, 0.366506338, -0.775604427)
